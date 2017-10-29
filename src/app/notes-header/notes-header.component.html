@@ -1,0 +1,11 @@
+<div class="notes-header">
+  <div class="left-content">
+    <div class="app-name">
+      Notes App
+    </div>
+  </div>
+  <div class="right-content">
+      <button class="btn btn-sm btn-danger fa fa-trash add-note-btn" (click)="deleteSelectedNote()" *ngIf="activeNote?.active"></button>
+    <button class="btn btn-sm btn-light fa fa-plus add-note-btn" (click)="addNote()" [disabled]="activeNote && activeNote.text == ''"></button>
+  </div>
+</div>

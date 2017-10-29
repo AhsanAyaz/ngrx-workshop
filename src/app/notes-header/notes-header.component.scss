@@ -1,0 +1,18 @@
+@import '../../styles/_variables';
+:host{
+  background: $dark-primary;
+  color: $icon-color;
+  .notes-header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    .left-content{
+      flex: 1;
+    }
+    .right-content{
+      justify-self: flex-end;
+    }
+  }
+
+}

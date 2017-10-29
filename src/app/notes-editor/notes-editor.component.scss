@@ -1,0 +1,25 @@
+@import '../../styles/_variables';
+
+.editor-container{
+  max-height: 100%;
+  overflow: hidden;
+  .editor-top-section{
+    text-align: center;
+    font-size: 14px;
+    color: $secondary-text;
+    padding: 10px 30px 5px 30px;
+  }
+  .editor-input{
+    max-height: 100%;
+    margin-top: 10px;
+    overflow: auto;
+    textarea{
+      padding: 0 20px;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      border: none;
+      resize: none;
+    }
+  }
+}

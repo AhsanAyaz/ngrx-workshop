@@ -1,0 +1,37 @@
+@import '../../styles/_variables';
+
+:host{
+  max-height: 500px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  .notes-app{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    app-notes-header{
+      height: 70px;
+    }
+    .notes-app-content{
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      app-notes-list, app-notes-editor{
+        border: 1px solid $divider;
+      }
+      app-notes-list{
+        width: 30%;
+        border-right: none;
+      }
+      app-notes-editor{
+        flex: 1;
+      }
+    }
+  }
+}

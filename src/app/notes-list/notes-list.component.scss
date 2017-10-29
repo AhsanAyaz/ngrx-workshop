@@ -1,0 +1,32 @@
+@import '../../styles/_variables';
+.notes-list{
+  padding-top: 10px;
+  max-height: 100%;
+  overflow: auto;
+  .note-item{
+    padding: 10px 20px;
+    border-bottom: 1px solid $divider;
+    &.active{
+      background: rgb(232, 232, 232);
+    }
+    &.selected{
+      background: $primary;
+      .title, .date{
+        color: white
+      }
+    }
+
+    .title{
+      max-width: max-content;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 14px;
+      color: $primary-text;
+    }
+    .date{
+      font-size: 12px;
+      color: $secondary-text;
+    }
+  }
+}

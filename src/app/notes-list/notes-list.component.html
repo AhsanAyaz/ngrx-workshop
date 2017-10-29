@@ -1,0 +1,10 @@
+<div class="notes-list" [@listAnimation]="notes.length.toString()">
+  <div class="note-item" *ngFor="let note of notes;" (click)="showNote(note)" [class.selected]="note.selected" [class.active]="note.active">
+    <div class="title">
+      {{note.text ? note.text : 'New Note'}}
+    </div>
+    <div class="date">
+      {{note.cts | amTimeAgo}}
+    </div>
+  </div>
+</div>

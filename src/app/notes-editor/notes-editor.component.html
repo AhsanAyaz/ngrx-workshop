@@ -1,0 +1,8 @@
+<div class="editor-container">
+  <div class="editor-top-section" *ngIf="note">
+    {{note.cts | date: 'medium'}}
+  </div>
+  <div class="editor-input" *ngIf="note">
+      <textarea name="editorInput" id="notesEditor" rows="16" [(ngModel)]="note.text" (focus)="focusTextHandler()"></textarea>
+  </div>
+</div>
