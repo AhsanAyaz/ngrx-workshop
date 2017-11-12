@@ -8,6 +8,7 @@ import { Note } from '../models/note';
 })
 export class NotesHeaderComponent implements OnInit {
   @Input() activeNote: Note;
+  @Input() callInProgress: boolean;
   @Output() onAddNote = new EventEmitter<Note>();
   @Output() onDeleteNote = new EventEmitter<Note>();
   constructor() { }

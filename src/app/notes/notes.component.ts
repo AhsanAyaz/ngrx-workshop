@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Note } from '../models/note';
 import { NotesService } from '../services/notes.service';
-
+import { ToastrService } from 'ngx-toastr';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-notes',
@@ -11,16 +12,21 @@ import { NotesService } from '../services/notes.service';
 export class NotesComponent implements OnInit {
   notesList: Note[] = [];
   activeNote: Note = null;
+  callInProgress = false;
+  updateSubs: Subscription;
   constructor(
-    private notesService: NotesService
+    private notesService: NotesService,
+    private toastr: ToastrService
   ) { }
 
   ngOnInit() {
+    this.callInProgress = true;
     this.notesService.getNotes()
       .first()
       .subscribe(notes => {
         this.notesList = notes;
         this.setActiveNote(this.notesList[0]);
+        this.callInProgress = false;
       });
   }
 
@@ -31,8 +37,14 @@ export class NotesComponent implements OnInit {
    * @param note - the note to be added to the notes list
    */
   addNewNote(note: Note) {
-    this.notesList.unshift(note);
-    this.setActiveNote(this.notesList[0]);
+    this.callInProgress = true;
+    this.notesService.addNewNote(note)
+      .first()
+      .subscribe((savedNote: Note) => {
+        this.notesList.unshift(savedNote);
+        this.setActiveNote(this.notesList[0]);
+        this.callInProgress = false;
+      });
   }
 
   /**
@@ -61,7 +73,7 @@ export class NotesComponent implements OnInit {
   setActiveNote(note: Note, select: boolean = false) {
     if (note !== this.activeNote) {
       if (this.activeNote && this.activeNote.text === '') {
-        this.notesList = this.notesList.filter(noteItem => noteItem !== this.activeNote);
+        this.deleteNote(this.activeNote);
       }
     }
     this.activeNote = note;
@@ -81,11 +93,37 @@ export class NotesComponent implements OnInit {
    * @param note - the note to delete
    */
   deleteNote(note: Note) {
-    this.notesList = this.notesList.filter(noteItem => (noteItem !== note));
-    if (this.notesList.length) {
-      this.setActiveNote(this.notesList[0]);
-    } else {
-      this.activeNote = null;
+    this.callInProgress = true;
+    this.notesService.deleteNote(note)
+      .first()
+      .subscribe(res => {
+        this.callInProgress = false;
+        if (res.ok === 1 && res.n === 1) {  // if the record was actually deleted
+          this.toastr.success('Note deleted!');
+          this.notesList = this.notesList.filter(noteItem => (noteItem !== note));
+          this.activeNote = null;
+          if (this.notesList.length) {
+            this.setActiveNote(this.notesList[0]);
+          }
+        }
+      });
+  }
+
+  /**
+   * @author Ahsan Ayaz
+   * @desc Updates the note.
+   * Sends the update note to the server to save it
+   * @param noteText - the updated text from the editor
+   */
+  updateNote(noteText: string) {
+    if (this.updateSubs) {
+      this.updateSubs.unsubscribe();
+      this.updateSubs = null;
     }
+    this.updateSubs = this.notesService.updateNote({ ...this.activeNote, ...{ text: noteText }} )
+      .first()
+      .subscribe(note => {
+        this.activeNote = Object.assign(this.activeNote, note);
+      });
   }
 }

@@ -1,4 +1,6 @@
 @import '../../styles/_variables';
+@import '../../styles/_cust-elements';
+
 :host{
   background: $dark-primary;
   color: $icon-color;
@@ -12,7 +14,7 @@
     }
     .right-content{
       justify-self: flex-end;
+      height: 32px;
     }
   }
-
 }

@@ -3,6 +3,6 @@
     {{note.cts | date: 'medium'}}
   </div>
   <div class="editor-input" *ngIf="note">
-      <textarea name="editorInput" id="notesEditor" rows="16" [(ngModel)]="note.text" (focus)="focusTextHandler()"></textarea>
+      <textarea name="editorInput" id="notesEditor" rows="16" (ngModelChange)="onInputChange($event)" [(ngModel)]="note.text" (focus)="focusTextHandler()"></textarea>
   </div>
 </div>

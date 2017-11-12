@@ -9,6 +9,7 @@ import { Note } from '../models/note';
 export class NotesEditorComponent implements OnInit {
   @Input() note: Note;
   @Output() onTextFocus = new EventEmitter<any>();
+  @Output() onTextChanged = new EventEmitter<string>();
   constructor() { }
 
   ngOnInit() {
@@ -22,6 +23,15 @@ export class NotesEditorComponent implements OnInit {
    */
   focusTextHandler() {
     this.onTextFocus.emit();
+  }
+
+  /**
+   * @author Ahsan Ayaz
+   * @desc Triggered when the text of the input changes.
+   * Saves the text to the server
+   */
+  onInputChange(noteText: string = '') {
+    this.onTextChanged.emit(noteText);
   }
 
 }
