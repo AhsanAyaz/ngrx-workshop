@@ -16,6 +16,11 @@ export class NotesHeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  /**
+   * @author Ahsan Ayaz
+   * @desc Triggers when the add button is clicked.
+   * It emits a new note above the component tree
+   */
   addNote() {
     this.onAddNote.emit({
       text: '',
