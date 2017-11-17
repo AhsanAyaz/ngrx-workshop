@@ -9,6 +9,11 @@ import {
   query,
   stagger
 } from '@angular/animations';
+// import { Observable } from 'rxjs/Observable';
+// import { Store } from '@ngrx/store';
+// import { NotesState } from '../store/notes/notes.reducer';
+// import { selectNotesList, selectActiveNote } from '../store/notes/notes.selectors';
+// import { SetActiveNote } from '../store/notes/notes.actions';
 
 
 @Component({
@@ -35,11 +40,16 @@ import {
   ]
 })
 export class NotesListComponent implements OnInit {
+  // $notesList: Observable<Array<Note>>;
+  // $activeNote: Observable<Note>;
   constructor(
+    // private store: Store<NotesState>
   ) {
   }
 
   ngOnInit() {
+    // this.$notesList = this.store.select(selectNotesList);
+    // this.$activeNote = this.store.select(selectActiveNote);
   }
 
   /**
@@ -49,6 +59,9 @@ export class NotesListComponent implements OnInit {
    * @param note - the note on which the user clicked to show its contents
    */
   showNote(note: Note) {
+    // this.store.dispatch(new SetActiveNote({
+    //   note
+    // }));
   }
 
 }
