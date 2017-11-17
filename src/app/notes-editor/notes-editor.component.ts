@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-// import { Note } from '../models/note';
-// import { Observable } from 'rxjs/Observable';
-// import { Store } from '@ngrx/store';
-// import { NotesState } from '../store/notes/notes.reducer';
-// import { selectActiveNote } from '../store/notes/notes.selectors';
+import { Note } from '../models/note';
+import { Observable } from 'rxjs/Observable';
+import { Store } from '@ngrx/store';
+import { NotesState } from '../store/notes/notes.reducer';
+import { selectActiveNote } from '../store/notes/notes.selectors';
 
 @Component({
   selector: 'app-notes-editor',
@@ -11,13 +11,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./notes-editor.component.scss']
 })
 export class NotesEditorComponent implements OnInit {
-  // $activeNote: Observable<Note>;
+  $activeNote: Observable<Note>;
   constructor(
-    // private store: Store<NotesState>
+    private store: Store<NotesState>
   ) { }
 
   ngOnInit() {
-    // this.$activeNote = this.store.select(selectActiveNote);
+    this.$activeNote = this.store.select(selectActiveNote);
   }
 
   /**

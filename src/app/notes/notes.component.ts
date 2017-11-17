@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-// import { Store } from '@ngrx/store';
-// import { NotesState } from '../store/notes/notes.reducer';
-// import { GetNotes, SetActiveNote } from '../store/notes/notes.actions';
+import { Store } from '@ngrx/store';
+import { NotesState } from '../store/notes/notes.reducer';
+import { GetNotes, SetActiveNote } from '../store/notes/notes.actions';
 
 @Component({
   selector: 'app-notes',
@@ -10,11 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotesComponent implements OnInit {
   constructor(
-    // private store: Store<NotesState>
+    private store: Store<NotesState>
   ) { }
 
   ngOnInit() {
-    // this.store.dispatch(new GetNotes());
-    // this.store.dispatch(new SetActiveNote({}));
+    this.store.dispatch(new GetNotes());
+    this.store.dispatch(new SetActiveNote({}));
   }
 }
