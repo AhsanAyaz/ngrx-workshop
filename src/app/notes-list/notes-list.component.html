@@ -1,5 +1,5 @@
-<div class="notes-list" [@listAnimation]="notes.length.toString()">
-  <div class="note-item" *ngFor="let note of notes;" (click)="showNote(note)" [class.selected]="note.selected" [class.active]="note.active">
+<div class="notes-list" [@listAnimation]="($notesList | async)?.length.toString()">
+  <div class="note-item" *ngFor="let note of ($notesList | async);" (click)="showNote(note)" [class.active]="note._id === ($activeNote | async)?._id">
     <div class="title">
       {{note.text ? note.text : 'New Note'}}
     </div>

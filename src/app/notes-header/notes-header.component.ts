@@ -7,11 +7,8 @@ import { Note } from '../models/note';
   styleUrls: ['./notes-header.component.scss']
 })
 export class NotesHeaderComponent implements OnInit {
-  @Input() activeNote: Note;
-  @Input() callInProgress: boolean;
-  @Output() onAddNote = new EventEmitter<Note>();
-  @Output() onDeleteNote = new EventEmitter<Note>();
-  constructor() { }
+  constructor(
+  ) { }
 
   ngOnInit() {
   }
@@ -22,12 +19,6 @@ export class NotesHeaderComponent implements OnInit {
    * It emits a new note above the component tree
    */
   addNote() {
-    this.onAddNote.emit({
-      text: '',
-      cts: new Date(),
-      active: false,
-      selected: false
-    });
   }
 
   /**
@@ -35,7 +26,6 @@ export class NotesHeaderComponent implements OnInit {
    * @desc Triggers when the delete button is clicked from the top header
    */
   deleteSelectedNote() {
-    this.onDeleteNote.emit(this.activeNote);
   }
 
 }

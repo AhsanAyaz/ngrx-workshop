@@ -6,19 +6,19 @@
   </div>
   <div class="right-content">
     <button
-      *ngIf="callInProgress"
+      *ngIf="$callInProgress | async"
       class="spinner btn btn-sm btn-light fa fa-refresh add-note-btn">
     </button>
     <button
       class="btn btn-sm btn-danger fa fa-trash add-note-btn"
       (click)="deleteSelectedNote()"
-      *ngIf="activeNote?.active"
-      [disabled]="callInProgress">
+      *ngIf="($activeNote | async)"
+      [disabled]="$callInProgress | async">
     </button>
     <button
       class="btn btn-sm btn-light fa fa-plus add-note-btn"
       (click)="addNote()"
-      [disabled]="(activeNote && activeNote.text == '') || callInProgress">
+      [disabled]="(($activeNote | async)?.text == '') || ($callInProgress | async)">
     </button>
   </div>
 </div>

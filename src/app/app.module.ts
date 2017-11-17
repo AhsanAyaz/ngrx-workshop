@@ -13,6 +13,9 @@ import { NotesEditorComponent } from './notes-editor/notes-editor.component';
 import { NotesService } from './services/notes.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
+// import { StoreModule } from '@ngrx/store';
+// import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+// import { notesReducer } from './store/notes/notes.reducer';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,10 @@ import { ToastrModule } from 'ngx-toastr';
     NotesListComponent
   ],
   imports: [
+    // StoreModule.forRoot({ notes: notesReducer }),
+    // StoreDevtoolsModule.instrument({
+      // maxAge: 25 //  Retains last 25 states
+    // }),
     BrowserModule,
     AppRoutingModule,
     FormsModule,

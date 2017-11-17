@@ -35,9 +35,9 @@ import {
   ]
 })
 export class NotesListComponent implements OnInit {
-  @Input() notes: Note[] = [];
-  @Output() onNoteClicked = new EventEmitter<Note>();
-  constructor() { }
+  constructor(
+  ) {
+  }
 
   ngOnInit() {
   }
@@ -49,7 +49,6 @@ export class NotesListComponent implements OnInit {
    * @param note - the note on which the user clicked to show its contents
    */
   showNote(note: Note) {
-    this.onNoteClicked.emit(note);
   }
 
 }

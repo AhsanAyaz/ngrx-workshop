@@ -1,8 +1,8 @@
-<div class="editor-container">
-  <div class="editor-top-section" *ngIf="note">
+<div class="editor-container" *ngIf="$activeNote | async as note">
+  <div class="editor-top-section">
     {{note.cts | date: 'medium'}}
   </div>
-  <div class="editor-input" *ngIf="note">
-      <textarea name="editorInput" id="notesEditor" rows="16" (ngModelChange)="onInputChange($event)" [(ngModel)]="note.text" (focus)="focusTextHandler()"></textarea>
+  <div class="editor-input">
+      <textarea name="editorInput" id="notesEditor" rows="16" (ngModelChange)="onInputChange($event)" [(ngModel)]="note.text"></textarea>
   </div>
 </div>

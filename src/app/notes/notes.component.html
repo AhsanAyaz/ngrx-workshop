@@ -1,11 +1,8 @@
 <div class="notes-app container">
-  <app-notes-header (onDeleteNote)="deleteNote($event)" (onAddNote)="addNewNote($event)" [callInProgress]="callInProgress" [activeNote]="activeNote"></app-notes-header>
+  <app-notes-header></app-notes-header>
   <div class="notes-app-content">
-    <app-notes-list (onNoteClicked)="setActiveNote($event, true)" [notes]="notesList"></app-notes-list>
-    <app-notes-editor
-      (onTextFocus)="unselectActiveNote()"
-      (onTextChanged)="updateNote($event)"
-      [note]="activeNote">
+    <app-notes-list></app-notes-list>
+    <app-notes-editor>
     </app-notes-editor>
   </div>
 </div>
