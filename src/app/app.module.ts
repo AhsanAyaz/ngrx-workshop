@@ -16,8 +16,8 @@ import { ToastrModule } from 'ngx-toastr';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { notesReducer } from './store/notes/notes.reducer';
-// import { EffectsModule } from '@ngrx/effects';
-// import { NotesEffects } from './store/notes/notes.effects';
+import { EffectsModule } from '@ngrx/effects';
+import { NotesEffects } from './store/notes/notes.effects';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import { notesReducer } from './store/notes/notes.reducer';
   ],
   imports: [
     StoreModule.forRoot({ notes: notesReducer }),
-    // EffectsModule.forRoot([NotesEffects]),
+    EffectsModule.forRoot([NotesEffects]),
     StoreDevtoolsModule.instrument({
       maxAge: 25 //  Retains last 25 states
     }),

@@ -25,16 +25,16 @@ export function notesReducer(
           ...state,
           callInProgress: true
         };
-      // case NotesActions.GET_NOTES_SUCCESS:
-      //   return {
-      //     ...state,
-      //     ...{ notesList: action.payload.notes, callInProgress: false }
-      //   };
-      // case NotesActions.GET_NOTES_FAILURE:
-      //   return {
-      //     ...state,
-      //     ...{ callInProgress: false }
-      //   };
+      case NotesActions.GET_NOTES_SUCCESS:
+        return {
+          ...state,
+          ...{ notesList: action.payload.notes, callInProgress: false }
+        };
+      case NotesActions.GET_NOTES_FAILURE:
+        return {
+          ...state,
+          ...{ callInProgress: false }
+        };
       case NotesActions.SET_ACTIVE_NOTE:
         return {
           ...state,
@@ -47,37 +47,53 @@ export function notesReducer(
           ...state,
           ...{ callInProgress: true }
         };
-      // case NotesActions.ADD_NOTE_SUCCESS:
-      //   return {
-      //     ...state,
-      //     ...{
-      //       notesList: [action.payload.note, ...state.notesList],
-      //       callInProgress: false
-      //     }
-      //   };
-      // case NotesActions.ADD_NOTE_FAILURE:
-      //   return {
-      //     ...state,
-      //     ...{ callInProgress: false }
-      //   };
+      case NotesActions.ADD_NOTE_SUCCESS:
+        return {
+          ...state,
+          ...{
+            notesList: [action.payload.note, ...state.notesList],
+            callInProgress: false
+          }
+        };
+      case NotesActions.ADD_NOTE_FAILURE:
+        return {
+          ...state,
+          ...{ callInProgress: false }
+        };
 
       case NotesActions.DELETE_NOTE:
         return {
           ...state,
           ...{ callInProgress: true }
         };
-      // case NotesActions.DELETE_NOTE_SUCCESS:
+      case NotesActions.DELETE_NOTE_SUCCESS:
+        return {
+          ...state,
+          ...{ notesList: state.notesList.filter(
+              note => (note._id !== state.activeNote._id)
+            ),
+            callInProgress: false
+          },
+        };
+      case NotesActions.DELETE_NOTE_FAILURE:
+        return {
+          ...state,
+          ...{ callInProgress: false }
+        };
+
+      // case NotesActions.UPDATE_NOTE:
       //   return {
       //     ...state,
-      //     ...{ notesList: state.notesList.filter(
-      //       note => (note._id !== state.activeNote._id)
-      //     ) }
+      //     ...{ callInProgress: true }
       //   };
+
+      // case NotesActions.UPDATE_NOTE_SUCCESS:
       // case NotesActions.DELETE_NOTE_FAILURE:
       //   return {
       //     ...state,
       //     ...{ callInProgress: false }
       //   };
+
       default:
           return state;
     }
