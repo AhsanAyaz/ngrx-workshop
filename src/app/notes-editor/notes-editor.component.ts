@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import { Store } from '@ngrx/store';
 import { NotesState } from '../store/notes/notes.reducer';
 import { selectActiveNote } from '../store/notes/notes.selectors';
-// import { UpdateNote } from '../store/notes/notes.actions';
+import { UpdateNote } from '../store/notes/notes.actions';
 
 @Component({
   selector: 'app-notes-editor',
@@ -27,13 +27,13 @@ export class NotesEditorComponent implements OnInit {
    * Saves the text to the server
    */
   onInputChange(noteText: string = '') {
-    // this.$activeNote
-    //   .first()
-    //   .subscribe(note => {
-    //     this.store.dispatch(new UpdateNote({
-    //       note
-    //     }));
-    //   });
+    this.$activeNote
+      .first()
+      .subscribe(note => {
+        this.store.dispatch(new UpdateNote({
+          note
+        }));
+      });
   }
 
 }

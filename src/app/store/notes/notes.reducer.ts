@@ -81,18 +81,18 @@ export function notesReducer(
           ...{ callInProgress: false }
         };
 
-      // case NotesActions.UPDATE_NOTE:
-      //   return {
-      //     ...state,
-      //     ...{ callInProgress: true }
-      //   };
+      case NotesActions.UPDATE_NOTE:
+        return {
+          ...state,
+          ...{ callInProgress: true }
+        };
 
-      // case NotesActions.UPDATE_NOTE_SUCCESS:
-      // case NotesActions.DELETE_NOTE_FAILURE:
-      //   return {
-      //     ...state,
-      //     ...{ callInProgress: false }
-      //   };
+      case NotesActions.UPDATE_NOTE_SUCCESS:
+      case NotesActions.DELETE_NOTE_FAILURE:
+        return {
+          ...state,
+          ...{ callInProgress: false }
+        };
 
       default:
           return state;

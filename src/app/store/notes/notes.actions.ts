@@ -11,28 +11,28 @@ export const DELETE_NOTE_FAILURE =              '[Notes] DeleteNoteFailure';
 export const ADD_NOTE =                         '[Notes] AddNote';
 export const ADD_NOTE_SUCCESS =                 '[Notes] AddNoteSuccess';
 export const ADD_NOTE_FAILURE =                 '[Notes] AddNoteFailure';
-// export const UPDATE_NOTE =                '[Notes] UpdateNote';
-// export const UPDATE_NOTE_SUCCESS =        '[Notes] UpdateNoteSuccess';
-// export const UPDATE_NOTE_FAILURE =        '[Notes] UpdateNoteFailure';
+export const UPDATE_NOTE =                '[Notes] UpdateNote';
+export const UPDATE_NOTE_SUCCESS =        '[Notes] UpdateNoteSuccess';
+export const UPDATE_NOTE_FAILURE =        '[Notes] UpdateNoteFailure';
 
 
-// export class UpdateNote implements Action {
-//   readonly type = UPDATE_NOTE;
+export class UpdateNote implements Action {
+  readonly type = UPDATE_NOTE;
 
-//   constructor(public payload: { note: Note }) { }
-// }
+  constructor(public payload: { note: Note }) { }
+}
 
-// export class UpdateNoteSuccess implements Action {
-//     readonly type = UPDATE_NOTE_SUCCESS;
+export class UpdateNoteSuccess implements Action {
+    readonly type = UPDATE_NOTE_SUCCESS;
 
-//     constructor(public payload: { note: Note }) { }
-// }
+    constructor(public payload: { note: Note }) { }
+}
 
-// export class UpdateNoteFailure implements Action {
-//     readonly type = UPDATE_NOTE_FAILURE;
+export class UpdateNoteFailure implements Action {
+    readonly type = UPDATE_NOTE_FAILURE;
 
-//     constructor(public payload: { error: string }) { }
-// }
+    constructor(public payload: { error: string }) { }
+}
 
 export class DeleteNote implements Action {
   readonly type = DELETE_NOTE;
@@ -107,7 +107,7 @@ export type Actions
 | DeleteNote
 | DeleteNoteSuccess
 | DeleteNoteFailure
-// | UpdateNote
-// | UpdateNoteSuccess
-// | UpdateNoteFailure
+| UpdateNote
+| UpdateNoteSuccess
+| UpdateNoteFailure
 ;

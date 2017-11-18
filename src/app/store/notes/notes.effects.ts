@@ -85,29 +85,29 @@ export class NotesEffects {
     }));
   });
 
-  // /**
-  //  * @author Ahsan Ayaz
-  //  * @desc Updates the active note and sends to the server
-  //  */
-  // @Effect() $updateNote = this.actions$.ofType(NotesActions.UPDATE_NOTE)
-  // .map(toPayload)
-  // .debounceTime(300)
-  // .switchMap(payload => {
-  //   return this.notesService.updateNote(payload.note);
-  // })
-  // .mergeMap(note => {
-  //   // on success, dispatch success
-  //   return [
-  //     new NotesActions.UpdateNoteSuccess({
-  //       note
-  //     })
-  //   ];
-  // })
-  // .catch(() => {
-  //   return Observable.of(new NotesActions.UpdateNoteFailure({
-  //     error: 'Could not update note'
-  //   }));
-  // });
+  /**
+   * @author Ahsan Ayaz
+   * @desc Updates the active note and sends to the server
+   */
+  @Effect() $updateNote = this.actions$.ofType(NotesActions.UPDATE_NOTE)
+  .map(toPayload)
+  .debounceTime(300)
+  .switchMap(payload => {
+    return this.notesService.updateNote(payload.note);
+  })
+  .mergeMap(note => {
+    // on success, dispatch success
+    return [
+      new NotesActions.UpdateNoteSuccess({
+        note
+      })
+    ];
+  })
+  .catch(() => {
+    return Observable.of(new NotesActions.UpdateNoteFailure({
+      error: 'Could not update note'
+    }));
+  });
 
   constructor(
     private actions$: Actions,
