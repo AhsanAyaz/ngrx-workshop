@@ -70,8 +70,10 @@ export function notesReducer(
       //   return {
       //     ...state,
       //     ...{ notesList: state.notesList.filter(
-      //       note => (note._id !== state.activeNote._id)
-      //     ) }
+      //         note => (note._id !== state.activeNote._id)
+      //       ),
+      //       callInProgress: false
+      //     },
       //   };
       // case NotesActions.DELETE_NOTE_FAILURE:
       //   return {
