@@ -15,6 +15,5 @@ export class NotesComponent implements OnInit {
 
   ngOnInit() {
     this.store.dispatch(new GetNotes());
-    this.store.dispatch(new SetActiveNote({}));
   }
 }
