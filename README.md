@@ -1,6 +1,12 @@
-# NgrxWorkshopNgpk
+# Ngrx Workshop Ngpk
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0-rc.0.
+## Workshop Details
+The workshop was held at @ngPakistan's meetup. 
+[Here are the slides](slides.com/ahsanayaz/go-reactive-with-ngrx)
+
+## Final App DEMO
+The finalized app can be seen [here](https://ahsanayaz.github.io/ngrx-workshop)
+
 
 ## Development server
 
