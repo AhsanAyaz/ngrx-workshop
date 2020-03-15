@@ -1,0 +1,32 @@
+# GitHub Actions docs
+# https://help.github.com/en/articles/about-github-actions
+# https://help.github.com/en/articles/workflow-syntax-for-github-actions
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    # Machine environment:
+    # https://help.github.com/en/articles/software-in-virtual-environments-for-github-actions#ubuntu-1804-lts
+    # We specify the Node.js version manually below, and use versioned Chrome from Puppeteer.
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.8
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.8
+    - name: Angular magic
+      uses: ./actions/angular-magic
+      with:
+        github_access_token: ${{ secrets.ACCESS_TOKEN }}
+        build_configuration: development # The branch the action should deploy from.
+        base_href: /ngrx-workshop-ngpk/
+        deploy_branch: gh-pages # The branch the action should deploy to.
+        deploy_folder: docs # The folder the action should deploy.
