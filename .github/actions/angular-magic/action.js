@@ -1,11 +1,6 @@
-import core from "@actions/core";
-import github from "@actions/github";
-import run, {
-  init,
-  deploy,
-  generateBranch,
-  ActionInterface
-} from "github-pages-deploy-action";
+const core = require("@actions/core");
+const github = require("@actions/github");
+const run = require("github-pages-deploy-action").default;
 
 const execute = (command) => {
   const exec = require("child_process").exec;
@@ -26,6 +21,5 @@ run({
   accessToken: githubAccessToken,
   branch: "gh-pages",
   folder: deployFolder,
-  repositoryName: "JamesIves/github-pages-deploy-action",
 });
 console.log('process ended');

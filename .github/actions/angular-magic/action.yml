@@ -2,10 +2,10 @@ name: 'Angular Github Super Actions'
 description: 'Actions to super-charge your angular app for GitHub. Runs tests, performs lint actions and then deploys your specific folder to Github'
 author: 'Muhammad Ahsan Ayaz (https://github.com/ahsanayaz)'
 
-branding:
-  icon: 'layers'
-  color: 'red',
-  label: 'Angular Github Super Actions'
+# branding:
+#   icon: 'layers'
+#   color: 'red',
+#   label: 'Angular Github Super Actions'
 
 inputs:
   github_access_token:
@@ -30,9 +30,3 @@ inputs:
 runs:
   using: 'node12'
   main: 'action.js'
-  args:
-    - ${{ inputs.github_access_token }}
-    - ${{ inputs.deploy_folder }}
-    - ${{ inputs.base_href }}
-    - ${{ inputs.build_configuration }}
-    - ${{ inputs.deploy_branch }}
