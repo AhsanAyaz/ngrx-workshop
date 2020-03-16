@@ -28,7 +28,6 @@ inputs:
     required: true
   run_lint:
     description: "If the action should run 'ng lint'"
-    required: false
     default: false
 
 runs:
