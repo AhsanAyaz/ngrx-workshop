@@ -11,6 +11,9 @@ const execute = (command) => {
   })
 }
 
+const isFalsyVal = (val) => (!val || val === 'false')
+
 module.exports = {
-  execute
+  execute,
+  isFalsyVal
 }
