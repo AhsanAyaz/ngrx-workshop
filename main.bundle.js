@@ -1,6 +1,283 @@
 webpackJsonp(["main"],{
 
-/***/ "../../../../../src/$$_lazy_route_resource lazy recursive":
+/***/ "./node_modules/moment/locale recursive ^\\.\\/.*$":
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale recursive ^\\.\\/.*$";
+
+/***/ }),
+
+/***/ "./src/$$_lazy_route_resource lazy recursive":
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,18 +290,18 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "../../../../../src/$$_lazy_route_resource lazy recursive";
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "../../../../../src/app/app-routing.module.ts":
+/***/ "./src/app/app-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__notes_notes_component__ = __webpack_require__("../../../../../src/app/notes/notes.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__notes_notes_component__ = __webpack_require__("./src/app/notes/notes.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -57,37 +334,26 @@ var AppRoutingModule = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/app.component.html":
+/***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/app.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/app/app.component.scss":
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = ""
 
 /***/ }),
 
-/***/ "../../../../../src/app/app.component.ts":
+/***/ "./src/app/app.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -102,8 +368,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__("../../../../../src/app/app.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/app.component.scss")]
+            template: __webpack_require__("./src/app/app.component.html"),
+            styles: [__webpack_require__("./src/app/app.component.scss")]
         })
     ], AppComponent);
     return AppComponent;
@@ -113,42 +379,32 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/app.module.ts":
+/***/ "./src/app/app.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_moment__ = __webpack_require__("../../../../angular2-moment/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_moment__ = __webpack_require__("./node_modules/angular2-moment/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_angular2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__notes_notes_component__ = __webpack_require__("../../../../../src/app/notes/notes.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__notes_list_notes_list_component__ = __webpack_require__("../../../../../src/app/notes-list/notes-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__notes_header_notes_header_component__ = __webpack_require__("../../../../../src/app/notes-header/notes-header.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__notes_editor_notes_editor_component__ = __webpack_require__("../../../../../src/app/notes-editor/notes-editor.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_notes_service__ = __webpack_require__("../../../../../src/app/services/notes.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_toastr__ = __webpack_require__("../../../../ngx-toastr/toastr.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngrx_store_devtools__ = __webpack_require__("../../../../@ngrx/store-devtools/@ngrx/store-devtools.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__store_notes_notes_reducer__ = __webpack_require__("../../../../../src/app/store/notes/notes.reducer.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ngrx_effects__ = __webpack_require__("../../../../@ngrx/effects/@ngrx/effects.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__store_notes_notes_effects__ = __webpack_require__("../../../../../src/app/store/notes/notes.effects.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_routing_module__ = __webpack_require__("./src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__notes_notes_component__ = __webpack_require__("./src/app/notes/notes.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__notes_list_notes_list_component__ = __webpack_require__("./src/app/notes-list/notes-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__notes_header_notes_header_component__ = __webpack_require__("./src/app/notes-header/notes-header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__notes_editor_notes_editor_component__ = __webpack_require__("./src/app/notes-editor/notes-editor.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_notes_service__ = __webpack_require__("./src/app/services/notes.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
-
-
-
-
 
 
 
@@ -176,11 +432,6 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_8__notes_list_notes_list_component__["a" /* NotesListComponent */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_14__ngrx_store__["i" /* StoreModule */].forRoot({ notes: __WEBPACK_IMPORTED_MODULE_16__store_notes_notes_reducer__["b" /* notesReducer */] }),
-                __WEBPACK_IMPORTED_MODULE_17__ngrx_effects__["c" /* EffectsModule */].forRoot([__WEBPACK_IMPORTED_MODULE_18__store_notes_notes_effects__["a" /* NotesEffects */]]),
-                __WEBPACK_IMPORTED_MODULE_15__ngrx_store_devtools__["a" /* StoreDevtoolsModule */].instrument({
-                    maxAge: 25 //  Retains last 25 states
-                }),
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_5__app_routing_module__["a" /* AppRoutingModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
@@ -205,40 +456,26 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-editor/notes-editor.component.html":
+/***/ "./src/app/notes-editor/notes-editor.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"editor-container\" *ngIf=\"$activeNote | async as note\">\n  <div class=\"editor-top-section\">\n    {{note.cts | date: 'medium'}}\n  </div>\n  <div class=\"editor-input\">\n      <textarea name=\"editorInput\" id=\"notesEditor\" rows=\"16\" (ngModelChange)=\"onInputChange($event)\" [(ngModel)]=\"note.text\"></textarea>\n  </div>\n</div>\n"
+module.exports = "<div class=\"editor-container\">\n  <div class=\"editor-top-section\" *ngIf=\"note\">\n    {{note.cts | date: 'medium'}}\n  </div>\n  <div class=\"editor-input\" *ngIf=\"note\">\n      <textarea name=\"editorInput\" id=\"notesEditor\" rows=\"16\" (ngModelChange)=\"onInputChange($event)\" [(ngModel)]=\"note.text\" (focus)=\"focusTextHandler()\"></textarea>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-editor/notes-editor.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/app/notes-editor/notes-editor.component.scss":
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n.editor-container {\n  max-height: 100%;\n  overflow: hidden; }\n  .editor-container .editor-top-section {\n    text-align: center;\n    font-size: 14px;\n    color: #757575;\n    padding: 10px 30px 5px 30px; }\n  .editor-container .editor-input {\n    max-height: 100%;\n    margin-top: 10px;\n    overflow: auto; }\n    .editor-container .editor-input textarea {\n      padding: 0 20px;\n      width: 100%;\n      height: 100%;\n      outline: none;\n      border: none;\n      resize: none; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n.editor-container {\n  max-height: 100%;\n  overflow: hidden; }\n.editor-container .editor-top-section {\n    text-align: center;\n    font-size: 14px;\n    color: #757575;\n    padding: 10px 30px 5px 30px; }\n.editor-container .editor-input {\n    max-height: 100%;\n    margin-top: 10px;\n    overflow: auto; }\n.editor-container .editor-input textarea {\n      padding: 0 20px;\n      width: 100%;\n      height: 100%;\n      outline: none;\n      border: none;\n      resize: none; }\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-editor/notes-editor.component.ts":
+/***/ "./src/app/notes-editor/notes-editor.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesEditorComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_selectors__ = __webpack_require__("../../../../../src/app/store/notes/notes.selectors.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store_notes_notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -249,15 +486,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
 var NotesEditorComponent = (function () {
-    function NotesEditorComponent(store) {
-        this.store = store;
+    function NotesEditorComponent() {
+        this.onTextFocus = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.onTextChanged = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
     }
     NotesEditorComponent.prototype.ngOnInit = function () {
-        this.$activeNote = this.store.select(__WEBPACK_IMPORTED_MODULE_2__store_notes_notes_selectors__["a" /* selectActiveNote */]);
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc This is triggered when the textarea is focused.
+     * This emits onTextFocus allowing the parent component to perform appropriate
+     * action.
+     */
+    NotesEditorComponent.prototype.focusTextHandler = function () {
+        this.onTextFocus.emit();
     };
     /**
      * @author Ahsan Ayaz
@@ -265,23 +508,28 @@ var NotesEditorComponent = (function () {
      * Saves the text to the server
      */
     NotesEditorComponent.prototype.onInputChange = function (noteText) {
-        var _this = this;
         if (noteText === void 0) { noteText = ''; }
-        this.$activeNote
-            .first()
-            .subscribe(function (note) {
-            _this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_3__store_notes_notes_actions__["v" /* UpdateNote */]({
-                note: note
-            }));
-        });
+        this.onTextChanged.emit(noteText);
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", Object)
+    ], NotesEditorComponent.prototype, "note", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], NotesEditorComponent.prototype, "onTextFocus", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], NotesEditorComponent.prototype, "onTextChanged", void 0);
     NotesEditorComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-notes-editor',
-            template: __webpack_require__("../../../../../src/app/notes-editor/notes-editor.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/notes-editor/notes-editor.component.scss")]
+            template: __webpack_require__("./src/app/notes-editor/notes-editor.component.html"),
+            styles: [__webpack_require__("./src/app/notes-editor/notes-editor.component.scss")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ngrx_store__["h" /* Store */]])
+        __metadata("design:paramtypes", [])
     ], NotesEditorComponent);
     return NotesEditorComponent;
 }());
@@ -290,40 +538,26 @@ var NotesEditorComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-header/notes-header.component.html":
+/***/ "./src/app/notes-header/notes-header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"notes-header\">\n  <div class=\"left-content\">\n    <div class=\"app-name\">\n      Notes App\n    </div>\n  </div>\n  <div class=\"right-content\">\n    <button\n      *ngIf=\"$callInProgress | async\"\n      class=\"spinner btn btn-sm btn-light fa fa-refresh add-note-btn\">\n    </button>\n    <button\n      class=\"btn btn-sm btn-danger fa fa-trash add-note-btn\"\n      (click)=\"deleteSelectedNote()\"\n      *ngIf=\"($activeNote | async)\"\n      [disabled]=\"$callInProgress | async\">\n    </button>\n    <button\n      class=\"btn btn-sm btn-light fa fa-plus add-note-btn\"\n      (click)=\"addNote()\"\n      [disabled]=\"(($activeNote | async)?.text == '') || ($callInProgress | async)\">\n    </button>\n  </div>\n</div>\n"
+module.exports = "<div class=\"notes-header\">\n  <div class=\"left-content\">\n    <div class=\"app-name\">\n      Notes App\n    </div>\n  </div>\n  <div class=\"right-content\">\n    <button\n      *ngIf=\"callInProgress\"\n      class=\"spinner btn btn-sm btn-light fa fa-refresh add-note-btn\">\n    </button>\n    <button\n      class=\"btn btn-sm btn-danger fa fa-trash add-note-btn\"\n      (click)=\"deleteSelectedNote()\"\n      *ngIf=\"activeNote?.active\"\n      [disabled]=\"callInProgress\">\n    </button>\n    <button\n      class=\"btn btn-sm btn-light fa fa-plus add-note-btn\"\n      (click)=\"addNote()\"\n      [disabled]=\"(activeNote && activeNote.text == '') || callInProgress\">\n    </button>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-header/notes-header.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/app/notes-header/notes-header.component.scss":
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n@-webkit-keyframes spinner {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n@keyframes spinner {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n\n.spinner {\n  position: relative;\n  width: 32px;\n  background: none;\n  border: none;\n  padding: 0; }\n  .spinner::before {\n    position: absolute;\n    color: white;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    top: 0;\n    margin: auto;\n    -webkit-animation: spinner 0.8s linear infinite;\n            animation: spinner 0.8s linear infinite;\n    width: 14px;\n    height: 16px; }\n\n:host {\n  background: #1976D2;\n  color: #FFFFFF; }\n  :host .notes-header {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding: 20px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    :host .notes-header .left-content {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n    :host .notes-header .right-content {\n      justify-self: flex-end;\n      height: 32px; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n@-webkit-keyframes spinner {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n@keyframes spinner {\n  to {\n    -webkit-transform: rotate(360deg);\n            transform: rotate(360deg); } }\n.spinner {\n  position: relative;\n  width: 32px;\n  background: none;\n  border: none;\n  padding: 0; }\n.spinner::before {\n    position: absolute;\n    color: white;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    top: 0;\n    margin: auto;\n    -webkit-animation: spinner 0.8s linear infinite;\n            animation: spinner 0.8s linear infinite;\n    width: 14px;\n    height: 16px; }\n:host {\n  background: #1976D2;\n  color: #FFFFFF; }\n:host .notes-header {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding: 20px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center; }\n:host .notes-header .left-content {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1; }\n:host .notes-header .right-content {\n      justify-self: flex-end;\n      height: 32px; }\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-header/notes-header.component.ts":
+/***/ "./src/app/notes-header/notes-header.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesHeaderComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__ = __webpack_require__("../../../../../src/app/store/notes/notes.selectors.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -334,16 +568,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
-
-
-
 var NotesHeaderComponent = (function () {
-    function NotesHeaderComponent(store) {
-        this.store = store;
+    function NotesHeaderComponent() {
+        this.onAddNote = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
+        this.onDeleteNote = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
     }
     NotesHeaderComponent.prototype.ngOnInit = function () {
-        this.$activeNote = this.store.select(__WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__["a" /* selectActiveNote */]);
-        this.$callInProgress = this.store.select(__WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__["b" /* selectCallInProgress */]);
     };
     /**
      * @author Ahsan Ayaz
@@ -351,36 +581,43 @@ var NotesHeaderComponent = (function () {
      * It emits a new note above the component tree
      */
     NotesHeaderComponent.prototype.addNote = function () {
-        this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_actions__["d" /* AddNote */]({
-            note: {
-                text: '',
-                cts: new Date(),
-                active: false,
-                selected: false
-            }
-        }));
+        this.onAddNote.emit({
+            text: '',
+            cts: new Date(),
+            active: false,
+            selected: false
+        });
     };
     /**
      * @author Ahsan Ayaz
      * @desc Triggers when the delete button is clicked from the top header
      */
     NotesHeaderComponent.prototype.deleteSelectedNote = function () {
-        var _this = this;
-        this.$activeNote
-            .first()
-            .subscribe(function (activeNote) {
-            _this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_actions__["j" /* DeleteNote */]({
-                note: activeNote
-            }));
-        });
+        this.onDeleteNote.emit(this.activeNote);
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", Object)
+    ], NotesHeaderComponent.prototype, "activeNote", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", Boolean)
+    ], NotesHeaderComponent.prototype, "callInProgress", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], NotesHeaderComponent.prototype, "onAddNote", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], NotesHeaderComponent.prototype, "onDeleteNote", void 0);
     NotesHeaderComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-notes-header',
-            template: __webpack_require__("../../../../../src/app/notes-header/notes-header.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/notes-header/notes-header.component.scss")]
+            template: __webpack_require__("./src/app/notes-header/notes-header.component.html"),
+            styles: [__webpack_require__("./src/app/notes-header/notes-header.component.scss")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ngrx_store__["h" /* Store */]])
+        __metadata("design:paramtypes", [])
     ], NotesHeaderComponent);
     return NotesHeaderComponent;
 }());
@@ -389,41 +626,27 @@ var NotesHeaderComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-list/notes-list.component.html":
+/***/ "./src/app/notes-list/notes-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"notes-list\" [@listAnimation]=\"($notesList | async)?.length.toString()\">\n  <div class=\"note-item\" *ngFor=\"let note of ($notesList | async);\" (click)=\"showNote(note)\" [class.active]=\"note._id === ($activeNote | async)?._id\">\n    <div class=\"title\">\n      {{note.text ? note.text : 'New Note'}}\n    </div>\n    <div class=\"date\">\n      {{note.cts | amTimeAgo}}\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"notes-list\" [@listAnimation]=\"notes.length.toString()\">\n  <div class=\"note-item\" *ngFor=\"let note of notes;\" (click)=\"showNote(note)\" [class.selected]=\"note.selected\" [class.active]=\"note.active\">\n    <div class=\"title\">\n      {{note.text ? note.text : 'New Note'}}\n    </div>\n    <div class=\"date\">\n      {{note.cts | amTimeAgo}}\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-list/notes-list.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/app/notes-list/notes-list.component.scss":
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n.notes-list {\n  padding-top: 10px;\n  max-height: 100%;\n  overflow: auto; }\n  .notes-list .note-item {\n    padding: 10px 20px;\n    border-bottom: 1px solid #BDBDBD; }\n    .notes-list .note-item.active {\n      background: #e8e8e8; }\n    .notes-list .note-item.selected {\n      background: #2196F3; }\n      .notes-list .note-item.selected .title, .notes-list .note-item.selected .date {\n        color: white; }\n    .notes-list .note-item .title {\n      max-width: -webkit-max-content;\n      max-width: -moz-max-content;\n      max-width: max-content;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-size: 14px;\n      color: #212121; }\n    .notes-list .note-item .date {\n      font-size: 12px;\n      color: #757575; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n.notes-list {\n  padding-top: 10px;\n  max-height: 100%;\n  overflow: auto; }\n.notes-list .note-item {\n    padding: 10px 20px;\n    border-bottom: 1px solid #BDBDBD; }\n.notes-list .note-item.active {\n      background: #e8e8e8; }\n.notes-list .note-item.selected {\n      background: #2196F3; }\n.notes-list .note-item.selected .title, .notes-list .note-item.selected .date {\n        color: white; }\n.notes-list .note-item .title {\n      max-width: -webkit-max-content;\n      max-width: -moz-max-content;\n      max-width: max-content;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-size: 14px;\n      color: #212121; }\n.notes-list .note-item .date {\n      font-size: 12px;\n      color: #757575; }\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes-list/notes-list.component.ts":
+/***/ "./src/app/notes-list/notes-list.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesListComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__("../../../animations/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__ = __webpack_require__("../../../../../src/app/store/notes/notes.selectors.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__store_notes_notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_animations__ = __webpack_require__("./node_modules/@angular/animations/esm5/animations.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -435,16 +658,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
 var NotesListComponent = (function () {
-    function NotesListComponent(store) {
-        this.store = store;
+    function NotesListComponent() {
+        this.notes = [];
+        this.onNoteClicked = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
     }
     NotesListComponent.prototype.ngOnInit = function () {
-        this.$notesList = this.store.select(__WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__["c" /* selectNotesList */]);
-        this.$activeNote = this.store.select(__WEBPACK_IMPORTED_MODULE_3__store_notes_notes_selectors__["a" /* selectActiveNote */]);
     };
     /**
      * @author Ahsan Ayaz
@@ -453,15 +672,21 @@ var NotesListComponent = (function () {
      * @param note - the note on which the user clicked to show its contents
      */
     NotesListComponent.prototype.showNote = function (note) {
-        this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_4__store_notes_notes_actions__["s" /* SetActiveNote */]({
-            note: note
-        }));
+        this.onNoteClicked.emit(note);
     };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", Array)
+    ], NotesListComponent.prototype, "notes", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
+        __metadata("design:type", Object)
+    ], NotesListComponent.prototype, "onNoteClicked", void 0);
     NotesListComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-notes-list',
-            template: __webpack_require__("../../../../../src/app/notes-list/notes-list.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/notes-list/notes-list.component.scss")],
+            template: __webpack_require__("./src/app/notes-list/notes-list.component.html"),
+            styles: [__webpack_require__("./src/app/notes-list/notes-list.component.scss")],
             animations: [
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["m" /* trigger */])('listAnimation', [
                     Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["l" /* transition */])('* => *', [
@@ -483,7 +708,7 @@ var NotesListComponent = (function () {
                 ])
             ]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ngrx_store__["h" /* Store */]])
+        __metadata("design:paramtypes", [])
     ], NotesListComponent);
     return NotesListComponent;
 }());
@@ -492,39 +717,36 @@ var NotesListComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes/notes.component.html":
+/***/ "./src/app/notes/notes.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"notes-app container\">\n  <app-notes-header></app-notes-header>\n  <div class=\"notes-app-content\">\n    <app-notes-list></app-notes-list>\n    <app-notes-editor>\n    </app-notes-editor>\n  </div>\n</div>\n"
+module.exports = "<div class=\"notes-app container\">\n  <app-notes-header (onDeleteNote)=\"deleteNote($event)\" (onAddNote)=\"addNewNote($event)\" [callInProgress]=\"callInProgress\" [activeNote]=\"activeNote\"></app-notes-header>\n  <div class=\"notes-app-content\">\n    <app-notes-list (onNoteClicked)=\"setActiveNote($event, true)\" [notes]=\"notesList\"></app-notes-list>\n    <app-notes-editor\n      (onTextFocus)=\"unselectActiveNote()\"\n      (onTextChanged)=\"updateNote($event)\"\n      [note]=\"activeNote\">\n    </app-notes-editor>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes/notes.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./src/app/notes/notes.component.scss":
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n:host {\n  max-height: 500px;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0; }\n  :host .notes-app {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    height: 100%;\n    width: 100%; }\n    :host .notes-app app-notes-header {\n      height: 70px; }\n    :host .notes-app .notes-app-content {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row; }\n      :host .notes-app .notes-app-content app-notes-list, :host .notes-app .notes-app-content app-notes-editor {\n        border: 1px solid #BDBDBD; }\n      :host .notes-app .notes-app-content app-notes-list {\n        width: 30%; }\n      :host .notes-app .notes-app-content app-notes-editor {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = "/*\n  variables that we can use in our notes app\n  within components so we don't have to use hex code\n  everywhere.\n*/\n:host {\n  max-height: 500px;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0; }\n:host .notes-app {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    height: 100%;\n    width: 100%; }\n:host .notes-app app-notes-header {\n      height: 70px; }\n:host .notes-app .notes-app-content {\n      -webkit-box-flex: 1;\n          -ms-flex: 1;\n              flex: 1;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-direction: row;\n              flex-direction: row; }\n:host .notes-app .notes-app-content app-notes-list, :host .notes-app .notes-app-content app-notes-editor {\n        border: 1px solid #BDBDBD; }\n:host .notes-app .notes-app-content app-notes-list {\n        width: 30%; }\n:host .notes-app .notes-app-content app-notes-editor {\n        -webkit-box-flex: 1;\n            -ms-flex: 1;\n                flex: 1; }\n"
 
 /***/ }),
 
-/***/ "../../../../../src/app/notes/notes.component.ts":
+/***/ "./src/app/notes/notes.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_notes_service__ = __webpack_require__("./src/app/services/notes.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/toastr.es5.js");
+var __assign = (this && this.__assign) || Object.assign || function(t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+            t[p] = s[p];
+    }
+    return t;
+};
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -538,19 +760,127 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var NotesComponent = (function () {
-    function NotesComponent(store) {
-        this.store = store;
+    function NotesComponent(notesService, toastr) {
+        this.notesService = notesService;
+        this.toastr = toastr;
+        this.notesList = [];
+        this.activeNote = null;
+        this.callInProgress = false;
     }
     NotesComponent.prototype.ngOnInit = function () {
-        this.store.dispatch(new __WEBPACK_IMPORTED_MODULE_2__store_notes_notes_actions__["o" /* GetNotes */]());
+        var _this = this;
+        this.callInProgress = true;
+        this.notesService.getNotes()
+            .first()
+            .subscribe(function (notes) {
+            _this.notesList = notes;
+            _this.setActiveNote(_this.notesList[0]);
+            _this.callInProgress = false;
+        });
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc Adds the passed note to the list at top.
+     * Also selects the added note
+     * @param note - the note to be added to the notes list
+     */
+    NotesComponent.prototype.addNewNote = function (note) {
+        var _this = this;
+        this.callInProgress = true;
+        this.notesService.addNewNote(note)
+            .first()
+            .subscribe(function (savedNote) {
+            _this.notesList.unshift(savedNote);
+            _this.setActiveNote(_this.notesList[0]);
+            _this.callInProgress = false;
+        });
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc Selects the active note (highlights on the left bar)
+     */
+    NotesComponent.prototype.selectActiveNote = function () {
+        this.activeNote.selected = true;
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc Unselects the active note (when the notes text area is selected)
+     */
+    NotesComponent.prototype.unselectActiveNote = function () {
+        this.activeNote.selected = false;
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc The function triggers when a note is selected from the left panel.
+     * This sets the clicked note as active note as well as highlights it
+     * @param note - the note clicked / or the note to be set active
+     * @param select - whether to highlight the selected note or not
+     */
+    NotesComponent.prototype.setActiveNote = function (note, select) {
+        if (select === void 0) { select = false; }
+        if (note !== this.activeNote) {
+            if (this.activeNote && this.activeNote.text === '') {
+                this.deleteNote(this.activeNote);
+            }
+        }
+        this.activeNote = note;
+        this.notesList.forEach(function (noteItem) {
+            noteItem.active = (note === noteItem);
+            noteItem.selected = false;
+        });
+        if (select) {
+            this.selectActiveNote();
+        }
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc Deletes the note provided from the list.
+     * Sets the top most as active from the remaining list (if any)
+     * @param note - the note to delete
+     */
+    NotesComponent.prototype.deleteNote = function (note) {
+        var _this = this;
+        this.callInProgress = true;
+        this.notesService.deleteNote(note)
+            .first()
+            .subscribe(function (res) {
+            _this.callInProgress = false;
+            if (res.ok === 1 && res.n === 1) {
+                _this.toastr.success('Note deleted!');
+                _this.notesList = _this.notesList.filter(function (noteItem) { return (noteItem !== note); });
+                _this.activeNote = null;
+                if (_this.notesList.length) {
+                    _this.setActiveNote(_this.notesList[0]);
+                }
+            }
+        });
+    };
+    /**
+     * @author Ahsan Ayaz
+     * @desc Updates the note.
+     * Sends the update note to the server to save it
+     * @param noteText - the updated text from the editor
+     */
+    NotesComponent.prototype.updateNote = function (noteText) {
+        var _this = this;
+        if (this.updateSubs) {
+            this.updateSubs.unsubscribe();
+            this.updateSubs = null;
+        }
+        this.updateSubs = this.notesService.updateNote(__assign({}, this.activeNote, { text: noteText }))
+            .first()
+            .subscribe(function (note) {
+            _this.activeNote = Object.assign(_this.activeNote, note);
+        });
     };
     NotesComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-notes',
-            template: __webpack_require__("../../../../../src/app/notes/notes.component.html"),
-            styles: [__webpack_require__("../../../../../src/app/notes/notes.component.scss")]
+            template: __webpack_require__("./src/app/notes/notes.component.html"),
+            styles: [__webpack_require__("./src/app/notes/notes.component.scss")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ngrx_store__["h" /* Store */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_notes_service__["a" /* NotesService */],
+            __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__["b" /* ToastrService */]])
     ], NotesComponent);
     return NotesComponent;
 }());
@@ -559,19 +889,19 @@ var NotesComponent = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/services/notes.service.ts":
+/***/ "./src/app/services/notes.service.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_observable_of__ = __webpack_require__("../../../../rxjs/_esm5/add/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_first__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/first.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_delay__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/delay.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__("../../../../rxjs/_esm5/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__config_notes_app_config__ = __webpack_require__("../../../../../src/config/notes-app.config.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_observable_of__ = __webpack_require__("./node_modules/rxjs/_esm5/add/observable/of.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_first__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/first.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_delay__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/delay.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__("./node_modules/rxjs/_esm5/Observable.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__config_notes_app_config__ = __webpack_require__("./src/config/notes-app.config.ts");
 var __assign = (this && this.__assign) || Object.assign || function(t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
         s = arguments[i];
@@ -662,423 +992,19 @@ var NotesService = (function () {
 
 /***/ }),
 
-/***/ "../../../../../src/app/store/notes/notes.actions.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return GET_NOTES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return GET_NOTES_SUCCESS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return GET_NOTES_FAILURE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return SET_ACTIVE_NOTE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return DELETE_NOTE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return DELETE_NOTE_SUCCESS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return DELETE_NOTE_FAILURE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ADD_NOTE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ADD_NOTE_SUCCESS; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ADD_NOTE_FAILURE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return UPDATE_NOTE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return UPDATE_NOTE_SUCCESS; });
-/* unused harmony export UPDATE_NOTE_FAILURE */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return UpdateNote; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return UpdateNoteSuccess; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return UpdateNoteFailure; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return DeleteNote; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return DeleteNoteSuccess; });
-/* unused harmony export DeleteNoteFailure */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return AddNote; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return AddNoteSuccess; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return AddNoteFailure; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return SetActiveNote; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return GetNotes; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return GetNotesSuccess; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return GetNotesFailure; });
-var GET_NOTES = '[Notes] GetNotes';
-var GET_NOTES_SUCCESS = '[Notes] GetNotesSuccess';
-var GET_NOTES_FAILURE = '[Notes] GetNotesFailure';
-var SET_ACTIVE_NOTE = '[Notes] SetActiveNote';
-var DELETE_NOTE = '[Notes] DeleteNote';
-var DELETE_NOTE_SUCCESS = '[Notes] DeleteNoteSuccess';
-var DELETE_NOTE_FAILURE = '[Notes] DeleteNoteFailure';
-var ADD_NOTE = '[Notes] AddNote';
-var ADD_NOTE_SUCCESS = '[Notes] AddNoteSuccess';
-var ADD_NOTE_FAILURE = '[Notes] AddNoteFailure';
-var UPDATE_NOTE = '[Notes] UpdateNote';
-var UPDATE_NOTE_SUCCESS = '[Notes] UpdateNoteSuccess';
-var UPDATE_NOTE_FAILURE = '[Notes] UpdateNoteFailure';
-var UpdateNote = (function () {
-    function UpdateNote(payload) {
-        this.payload = payload;
-        this.type = UPDATE_NOTE;
-    }
-    return UpdateNote;
-}());
-
-var UpdateNoteSuccess = (function () {
-    function UpdateNoteSuccess(payload) {
-        this.payload = payload;
-        this.type = UPDATE_NOTE_SUCCESS;
-    }
-    return UpdateNoteSuccess;
-}());
-
-var UpdateNoteFailure = (function () {
-    function UpdateNoteFailure(payload) {
-        this.payload = payload;
-        this.type = UPDATE_NOTE_FAILURE;
-    }
-    return UpdateNoteFailure;
-}());
-
-var DeleteNote = (function () {
-    function DeleteNote(payload) {
-        this.payload = payload;
-        this.type = DELETE_NOTE;
-    }
-    return DeleteNote;
-}());
-
-var DeleteNoteSuccess = (function () {
-    function DeleteNoteSuccess(payload) {
-        this.payload = payload;
-        this.type = DELETE_NOTE_SUCCESS;
-    }
-    return DeleteNoteSuccess;
-}());
-
-var DeleteNoteFailure = (function () {
-    function DeleteNoteFailure(payload) {
-        this.payload = payload;
-        this.type = DELETE_NOTE_FAILURE;
-    }
-    return DeleteNoteFailure;
-}());
-
-var AddNote = (function () {
-    function AddNote(payload) {
-        this.payload = payload;
-        this.type = ADD_NOTE;
-    }
-    return AddNote;
-}());
-
-var AddNoteSuccess = (function () {
-    function AddNoteSuccess(payload) {
-        this.payload = payload;
-        this.type = ADD_NOTE_SUCCESS;
-    }
-    return AddNoteSuccess;
-}());
-
-var AddNoteFailure = (function () {
-    function AddNoteFailure(payload) {
-        this.payload = payload;
-        this.type = ADD_NOTE_FAILURE;
-    }
-    return AddNoteFailure;
-}());
-
-var SetActiveNote = (function () {
-    function SetActiveNote(payload) {
-        this.payload = payload;
-        this.type = SET_ACTIVE_NOTE;
-    }
-    return SetActiveNote;
-}());
-
-var GetNotes = (function () {
-    function GetNotes() {
-        this.type = GET_NOTES;
-    }
-    return GetNotes;
-}());
-
-var GetNotesSuccess = (function () {
-    function GetNotesSuccess(payload) {
-        this.payload = payload;
-        this.type = GET_NOTES_SUCCESS;
-    }
-    return GetNotesSuccess;
-}());
-
-var GetNotesFailure = (function () {
-    function GetNotesFailure(payload) {
-        this.payload = payload;
-        this.type = GET_NOTES_FAILURE;
-    }
-    return GetNotesFailure;
-}());
-
-
-
-/***/ }),
-
-/***/ "../../../../../src/app/store/notes/notes.effects.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotesEffects; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_add_operator_mergeMap__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/mergeMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_switchMap__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/switchMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_debounceTime__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/debounceTime.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/catch.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_of__ = __webpack_require__("../../../../rxjs/_esm5/add/observable/of.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_Observable__ = __webpack_require__("../../../../rxjs/_esm5/Observable.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngrx_effects__ = __webpack_require__("../../../../@ngrx/effects/@ngrx/effects.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_notes_service__ = __webpack_require__("../../../../../src/app/services/notes.service.ts");
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-var NotesEffects = (function () {
-    function NotesEffects(actions$, notesService) {
-        var _this = this;
-        this.actions$ = actions$;
-        this.notesService = notesService;
-        /**
-         * @author Ahsan Ayaz
-         * @desc Fetches the notes from the server
-         */
-        this.$getNotes = this.actions$.ofType(__WEBPACK_IMPORTED_MODULE_8__notes_actions__["l" /* GET_NOTES */])
-            .map(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["d" /* toPayload */])
-            .mergeMap(function (payload) {
-            return _this.notesService.getNotes();
-        })
-            .mergeMap(function (notes) {
-            // on success, dispatch success and set first item active
-            return [
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["q" /* GetNotesSuccess */]({
-                    notes: notes
-                }),
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["s" /* SetActiveNote */]({})
-            ];
-        })
-            .catch(function () {
-            return __WEBPACK_IMPORTED_MODULE_6_rxjs_Observable__["a" /* Observable */].of(new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["p" /* GetNotesFailure */]({
-                error: 'Could not fetch notes'
-            }));
-        });
-        /**
-         * @author Ahsan Ayaz
-         * @desc Adds the note to the server
-         */
-        this.$addNote = this.actions$.ofType(__WEBPACK_IMPORTED_MODULE_8__notes_actions__["a" /* ADD_NOTE */])
-            .map(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["d" /* toPayload */])
-            .mergeMap(function (payload) {
-            return _this.notesService.addNewNote(payload.note);
-        })
-            .mergeMap(function (note) {
-            // on success, dispatch success and set first item active
-            return [
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["f" /* AddNoteSuccess */]({
-                    note: note
-                }),
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["s" /* SetActiveNote */]({})
-            ];
-        })
-            .catch(function () {
-            return __WEBPACK_IMPORTED_MODULE_6_rxjs_Observable__["a" /* Observable */].of(new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["e" /* AddNoteFailure */]({
-                error: 'Could not add note'
-            }));
-        });
-        /**
-         * @author Ahsan Ayaz
-         * @desc Deletes the note from the server
-         */
-        this.$deleteNote = this.actions$.ofType(__WEBPACK_IMPORTED_MODULE_8__notes_actions__["g" /* DELETE_NOTE */])
-            .map(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["d" /* toPayload */])
-            .mergeMap(function (payload) {
-            return _this.notesService.deleteNote(payload.note);
-        })
-            .mergeMap(function (data) {
-            // on success, dispatch success and set first item active
-            return [
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["k" /* DeleteNoteSuccess */]({
-                    data: data
-                }),
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["s" /* SetActiveNote */]({})
-            ];
-        })
-            .catch(function () {
-            return __WEBPACK_IMPORTED_MODULE_6_rxjs_Observable__["a" /* Observable */].of(new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["e" /* AddNoteFailure */]({
-                error: 'Could not delete note'
-            }));
-        });
-        /**
-         * @author Ahsan Ayaz
-         * @desc Updates the active note and sends to the server
-         */
-        this.$updateNote = this.actions$.ofType(__WEBPACK_IMPORTED_MODULE_8__notes_actions__["t" /* UPDATE_NOTE */])
-            .map(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["d" /* toPayload */])
-            .debounceTime(300)
-            .switchMap(function (payload) {
-            return _this.notesService.updateNote(payload.note);
-        })
-            .mergeMap(function (note) {
-            // on success, dispatch success
-            return [
-                new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["x" /* UpdateNoteSuccess */]({
-                    note: note
-                })
-            ];
-        })
-            .catch(function () {
-            return __WEBPACK_IMPORTED_MODULE_6_rxjs_Observable__["a" /* Observable */].of(new __WEBPACK_IMPORTED_MODULE_8__notes_actions__["w" /* UpdateNoteFailure */]({
-                error: 'Could not update note'
-            }));
-        });
-    }
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["b" /* Effect */])(),
-        __metadata("design:type", Object)
-    ], NotesEffects.prototype, "$getNotes", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["b" /* Effect */])(),
-        __metadata("design:type", Object)
-    ], NotesEffects.prototype, "$addNote", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["b" /* Effect */])(),
-        __metadata("design:type", Object)
-    ], NotesEffects.prototype, "$deleteNote", void 0);
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["b" /* Effect */])(),
-        __metadata("design:type", Object)
-    ], NotesEffects.prototype, "$updateNote", void 0);
-    NotesEffects = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_5__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__ngrx_effects__["a" /* Actions */],
-            __WEBPACK_IMPORTED_MODULE_9__services_notes_service__["a" /* NotesService */]])
-    ], NotesEffects);
-    return NotesEffects;
-}());
-
-
-
-/***/ }),
-
-/***/ "../../../../../src/app/store/notes/notes.reducer.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return initialState; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = notesReducer;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__notes_actions__ = __webpack_require__("../../../../../src/app/store/notes/notes.actions.ts");
-var __assign = (this && this.__assign) || Object.assign || function(t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-        s = arguments[i];
-        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-            t[p] = s[p];
-    }
-    return t;
-};
-
-var initialState = {
-    notesList: [],
-    callInProgress: false,
-    activeNote: null
-};
-function notesReducer(state, action // USE NotesActions.Actions
-) {
-    if (state === void 0) { state = initialState; }
-    switch (action.type) {
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["l" /* GET_NOTES */]:
-            return __assign({}, state, { callInProgress: true });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["n" /* GET_NOTES_SUCCESS */]:
-            return __assign({}, state, { notesList: action.payload.notes, callInProgress: false });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["m" /* GET_NOTES_FAILURE */]:
-            return __assign({}, state, { callInProgress: false });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["r" /* SET_ACTIVE_NOTE */]:
-            return __assign({}, state, {
-                activeNote: action.payload.note ? action.payload.note : state.notesList[0]
-            });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["a" /* ADD_NOTE */]:
-            return __assign({}, state, { callInProgress: true });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["c" /* ADD_NOTE_SUCCESS */]:
-            return __assign({}, state, {
-                notesList: [action.payload.note].concat(state.notesList),
-                callInProgress: false
-            });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["b" /* ADD_NOTE_FAILURE */]:
-            return __assign({}, state, { callInProgress: false });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["g" /* DELETE_NOTE */]:
-            return __assign({}, state, { callInProgress: true });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["i" /* DELETE_NOTE_SUCCESS */]:
-            return __assign({}, state, { notesList: state.notesList.filter(function (note) { return (note._id !== state.activeNote._id); }),
-                callInProgress: false
-            });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["h" /* DELETE_NOTE_FAILURE */]:
-            return __assign({}, state, { callInProgress: false });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["t" /* UPDATE_NOTE */]:
-            return __assign({}, state, { callInProgress: true });
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["u" /* UPDATE_NOTE_SUCCESS */]:
-        case __WEBPACK_IMPORTED_MODULE_0__notes_actions__["h" /* DELETE_NOTE_FAILURE */]:
-            return __assign({}, state, { callInProgress: false });
-        default:
-            return state;
-    }
-}
-
-
-/***/ }),
-
-/***/ "../../../../../src/app/store/notes/notes.selectors.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export selectNotes */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return selectNotesList; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return selectActiveNote; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return selectCallInProgress; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ngrx_store__ = __webpack_require__("../../../../@ngrx/store/@ngrx/store.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__notes_reducer__ = __webpack_require__("../../../../../src/app/store/notes/notes.reducer.ts");
-
-
-var selectNotes = Object(__WEBPACK_IMPORTED_MODULE_0__ngrx_store__["l" /* createFeatureSelector */])('notes');
-var selectNotesList = Object(__WEBPACK_IMPORTED_MODULE_0__ngrx_store__["m" /* createSelector */])(selectNotes, function (state) {
-    if (state === void 0) { state = __WEBPACK_IMPORTED_MODULE_1__notes_reducer__["a" /* initialState */]; }
-    return state.notesList;
-});
-var selectActiveNote = Object(__WEBPACK_IMPORTED_MODULE_0__ngrx_store__["m" /* createSelector */])(selectNotes, function (state) {
-    if (state === void 0) { state = __WEBPACK_IMPORTED_MODULE_1__notes_reducer__["a" /* initialState */]; }
-    return state.activeNote;
-});
-var selectCallInProgress = Object(__WEBPACK_IMPORTED_MODULE_0__ngrx_store__["m" /* createSelector */])(selectNotes, function (state) {
-    if (state === void 0) { state = __WEBPACK_IMPORTED_MODULE_1__notes_reducer__["a" /* initialState */]; }
-    return state.callInProgress;
-});
-
-
-/***/ }),
-
-/***/ "../../../../../src/config/notes-app.config.ts":
+/***/ "./src/config/notes-app.config.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NOTES_APP_CONFIG; });
 var NOTES_APP_CONFIG = {
-    apiBaseUrl: 'https://ahsanayaz.com/api/v1'
+    apiBaseUrl: 'http://104.236.64.70:5000/api/v1'
 };
 
 
 /***/ }),
 
-/***/ "../../../../../src/environments/environment.ts":
+/***/ "./src/environments/environment.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1094,15 +1020,15 @@ var environment = {
 
 /***/ }),
 
-/***/ "../../../../../src/main.ts":
+/***/ "./src/main.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("../../../platform-browser-dynamic/esm5/platform-browser-dynamic.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("../../../../../src/app/app.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("../../../../../src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("./src/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
 
 
 
@@ -1116,269 +1042,10 @@ Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ "../../../../moment/locale recursive ^\\.\\/.*$":
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./af": "../../../../moment/locale/af.js",
-	"./af.js": "../../../../moment/locale/af.js",
-	"./ar": "../../../../moment/locale/ar.js",
-	"./ar-dz": "../../../../moment/locale/ar-dz.js",
-	"./ar-dz.js": "../../../../moment/locale/ar-dz.js",
-	"./ar-kw": "../../../../moment/locale/ar-kw.js",
-	"./ar-kw.js": "../../../../moment/locale/ar-kw.js",
-	"./ar-ly": "../../../../moment/locale/ar-ly.js",
-	"./ar-ly.js": "../../../../moment/locale/ar-ly.js",
-	"./ar-ma": "../../../../moment/locale/ar-ma.js",
-	"./ar-ma.js": "../../../../moment/locale/ar-ma.js",
-	"./ar-sa": "../../../../moment/locale/ar-sa.js",
-	"./ar-sa.js": "../../../../moment/locale/ar-sa.js",
-	"./ar-tn": "../../../../moment/locale/ar-tn.js",
-	"./ar-tn.js": "../../../../moment/locale/ar-tn.js",
-	"./ar.js": "../../../../moment/locale/ar.js",
-	"./az": "../../../../moment/locale/az.js",
-	"./az.js": "../../../../moment/locale/az.js",
-	"./be": "../../../../moment/locale/be.js",
-	"./be.js": "../../../../moment/locale/be.js",
-	"./bg": "../../../../moment/locale/bg.js",
-	"./bg.js": "../../../../moment/locale/bg.js",
-	"./bm": "../../../../moment/locale/bm.js",
-	"./bm.js": "../../../../moment/locale/bm.js",
-	"./bn": "../../../../moment/locale/bn.js",
-	"./bn.js": "../../../../moment/locale/bn.js",
-	"./bo": "../../../../moment/locale/bo.js",
-	"./bo.js": "../../../../moment/locale/bo.js",
-	"./br": "../../../../moment/locale/br.js",
-	"./br.js": "../../../../moment/locale/br.js",
-	"./bs": "../../../../moment/locale/bs.js",
-	"./bs.js": "../../../../moment/locale/bs.js",
-	"./ca": "../../../../moment/locale/ca.js",
-	"./ca.js": "../../../../moment/locale/ca.js",
-	"./cs": "../../../../moment/locale/cs.js",
-	"./cs.js": "../../../../moment/locale/cs.js",
-	"./cv": "../../../../moment/locale/cv.js",
-	"./cv.js": "../../../../moment/locale/cv.js",
-	"./cy": "../../../../moment/locale/cy.js",
-	"./cy.js": "../../../../moment/locale/cy.js",
-	"./da": "../../../../moment/locale/da.js",
-	"./da.js": "../../../../moment/locale/da.js",
-	"./de": "../../../../moment/locale/de.js",
-	"./de-at": "../../../../moment/locale/de-at.js",
-	"./de-at.js": "../../../../moment/locale/de-at.js",
-	"./de-ch": "../../../../moment/locale/de-ch.js",
-	"./de-ch.js": "../../../../moment/locale/de-ch.js",
-	"./de.js": "../../../../moment/locale/de.js",
-	"./dv": "../../../../moment/locale/dv.js",
-	"./dv.js": "../../../../moment/locale/dv.js",
-	"./el": "../../../../moment/locale/el.js",
-	"./el.js": "../../../../moment/locale/el.js",
-	"./en-au": "../../../../moment/locale/en-au.js",
-	"./en-au.js": "../../../../moment/locale/en-au.js",
-	"./en-ca": "../../../../moment/locale/en-ca.js",
-	"./en-ca.js": "../../../../moment/locale/en-ca.js",
-	"./en-gb": "../../../../moment/locale/en-gb.js",
-	"./en-gb.js": "../../../../moment/locale/en-gb.js",
-	"./en-ie": "../../../../moment/locale/en-ie.js",
-	"./en-ie.js": "../../../../moment/locale/en-ie.js",
-	"./en-nz": "../../../../moment/locale/en-nz.js",
-	"./en-nz.js": "../../../../moment/locale/en-nz.js",
-	"./eo": "../../../../moment/locale/eo.js",
-	"./eo.js": "../../../../moment/locale/eo.js",
-	"./es": "../../../../moment/locale/es.js",
-	"./es-do": "../../../../moment/locale/es-do.js",
-	"./es-do.js": "../../../../moment/locale/es-do.js",
-	"./es-us": "../../../../moment/locale/es-us.js",
-	"./es-us.js": "../../../../moment/locale/es-us.js",
-	"./es.js": "../../../../moment/locale/es.js",
-	"./et": "../../../../moment/locale/et.js",
-	"./et.js": "../../../../moment/locale/et.js",
-	"./eu": "../../../../moment/locale/eu.js",
-	"./eu.js": "../../../../moment/locale/eu.js",
-	"./fa": "../../../../moment/locale/fa.js",
-	"./fa.js": "../../../../moment/locale/fa.js",
-	"./fi": "../../../../moment/locale/fi.js",
-	"./fi.js": "../../../../moment/locale/fi.js",
-	"./fo": "../../../../moment/locale/fo.js",
-	"./fo.js": "../../../../moment/locale/fo.js",
-	"./fr": "../../../../moment/locale/fr.js",
-	"./fr-ca": "../../../../moment/locale/fr-ca.js",
-	"./fr-ca.js": "../../../../moment/locale/fr-ca.js",
-	"./fr-ch": "../../../../moment/locale/fr-ch.js",
-	"./fr-ch.js": "../../../../moment/locale/fr-ch.js",
-	"./fr.js": "../../../../moment/locale/fr.js",
-	"./fy": "../../../../moment/locale/fy.js",
-	"./fy.js": "../../../../moment/locale/fy.js",
-	"./gd": "../../../../moment/locale/gd.js",
-	"./gd.js": "../../../../moment/locale/gd.js",
-	"./gl": "../../../../moment/locale/gl.js",
-	"./gl.js": "../../../../moment/locale/gl.js",
-	"./gom-latn": "../../../../moment/locale/gom-latn.js",
-	"./gom-latn.js": "../../../../moment/locale/gom-latn.js",
-	"./gu": "../../../../moment/locale/gu.js",
-	"./gu.js": "../../../../moment/locale/gu.js",
-	"./he": "../../../../moment/locale/he.js",
-	"./he.js": "../../../../moment/locale/he.js",
-	"./hi": "../../../../moment/locale/hi.js",
-	"./hi.js": "../../../../moment/locale/hi.js",
-	"./hr": "../../../../moment/locale/hr.js",
-	"./hr.js": "../../../../moment/locale/hr.js",
-	"./hu": "../../../../moment/locale/hu.js",
-	"./hu.js": "../../../../moment/locale/hu.js",
-	"./hy-am": "../../../../moment/locale/hy-am.js",
-	"./hy-am.js": "../../../../moment/locale/hy-am.js",
-	"./id": "../../../../moment/locale/id.js",
-	"./id.js": "../../../../moment/locale/id.js",
-	"./is": "../../../../moment/locale/is.js",
-	"./is.js": "../../../../moment/locale/is.js",
-	"./it": "../../../../moment/locale/it.js",
-	"./it.js": "../../../../moment/locale/it.js",
-	"./ja": "../../../../moment/locale/ja.js",
-	"./ja.js": "../../../../moment/locale/ja.js",
-	"./jv": "../../../../moment/locale/jv.js",
-	"./jv.js": "../../../../moment/locale/jv.js",
-	"./ka": "../../../../moment/locale/ka.js",
-	"./ka.js": "../../../../moment/locale/ka.js",
-	"./kk": "../../../../moment/locale/kk.js",
-	"./kk.js": "../../../../moment/locale/kk.js",
-	"./km": "../../../../moment/locale/km.js",
-	"./km.js": "../../../../moment/locale/km.js",
-	"./kn": "../../../../moment/locale/kn.js",
-	"./kn.js": "../../../../moment/locale/kn.js",
-	"./ko": "../../../../moment/locale/ko.js",
-	"./ko.js": "../../../../moment/locale/ko.js",
-	"./ky": "../../../../moment/locale/ky.js",
-	"./ky.js": "../../../../moment/locale/ky.js",
-	"./lb": "../../../../moment/locale/lb.js",
-	"./lb.js": "../../../../moment/locale/lb.js",
-	"./lo": "../../../../moment/locale/lo.js",
-	"./lo.js": "../../../../moment/locale/lo.js",
-	"./lt": "../../../../moment/locale/lt.js",
-	"./lt.js": "../../../../moment/locale/lt.js",
-	"./lv": "../../../../moment/locale/lv.js",
-	"./lv.js": "../../../../moment/locale/lv.js",
-	"./me": "../../../../moment/locale/me.js",
-	"./me.js": "../../../../moment/locale/me.js",
-	"./mi": "../../../../moment/locale/mi.js",
-	"./mi.js": "../../../../moment/locale/mi.js",
-	"./mk": "../../../../moment/locale/mk.js",
-	"./mk.js": "../../../../moment/locale/mk.js",
-	"./ml": "../../../../moment/locale/ml.js",
-	"./ml.js": "../../../../moment/locale/ml.js",
-	"./mr": "../../../../moment/locale/mr.js",
-	"./mr.js": "../../../../moment/locale/mr.js",
-	"./ms": "../../../../moment/locale/ms.js",
-	"./ms-my": "../../../../moment/locale/ms-my.js",
-	"./ms-my.js": "../../../../moment/locale/ms-my.js",
-	"./ms.js": "../../../../moment/locale/ms.js",
-	"./my": "../../../../moment/locale/my.js",
-	"./my.js": "../../../../moment/locale/my.js",
-	"./nb": "../../../../moment/locale/nb.js",
-	"./nb.js": "../../../../moment/locale/nb.js",
-	"./ne": "../../../../moment/locale/ne.js",
-	"./ne.js": "../../../../moment/locale/ne.js",
-	"./nl": "../../../../moment/locale/nl.js",
-	"./nl-be": "../../../../moment/locale/nl-be.js",
-	"./nl-be.js": "../../../../moment/locale/nl-be.js",
-	"./nl.js": "../../../../moment/locale/nl.js",
-	"./nn": "../../../../moment/locale/nn.js",
-	"./nn.js": "../../../../moment/locale/nn.js",
-	"./pa-in": "../../../../moment/locale/pa-in.js",
-	"./pa-in.js": "../../../../moment/locale/pa-in.js",
-	"./pl": "../../../../moment/locale/pl.js",
-	"./pl.js": "../../../../moment/locale/pl.js",
-	"./pt": "../../../../moment/locale/pt.js",
-	"./pt-br": "../../../../moment/locale/pt-br.js",
-	"./pt-br.js": "../../../../moment/locale/pt-br.js",
-	"./pt.js": "../../../../moment/locale/pt.js",
-	"./ro": "../../../../moment/locale/ro.js",
-	"./ro.js": "../../../../moment/locale/ro.js",
-	"./ru": "../../../../moment/locale/ru.js",
-	"./ru.js": "../../../../moment/locale/ru.js",
-	"./sd": "../../../../moment/locale/sd.js",
-	"./sd.js": "../../../../moment/locale/sd.js",
-	"./se": "../../../../moment/locale/se.js",
-	"./se.js": "../../../../moment/locale/se.js",
-	"./si": "../../../../moment/locale/si.js",
-	"./si.js": "../../../../moment/locale/si.js",
-	"./sk": "../../../../moment/locale/sk.js",
-	"./sk.js": "../../../../moment/locale/sk.js",
-	"./sl": "../../../../moment/locale/sl.js",
-	"./sl.js": "../../../../moment/locale/sl.js",
-	"./sq": "../../../../moment/locale/sq.js",
-	"./sq.js": "../../../../moment/locale/sq.js",
-	"./sr": "../../../../moment/locale/sr.js",
-	"./sr-cyrl": "../../../../moment/locale/sr-cyrl.js",
-	"./sr-cyrl.js": "../../../../moment/locale/sr-cyrl.js",
-	"./sr.js": "../../../../moment/locale/sr.js",
-	"./ss": "../../../../moment/locale/ss.js",
-	"./ss.js": "../../../../moment/locale/ss.js",
-	"./sv": "../../../../moment/locale/sv.js",
-	"./sv.js": "../../../../moment/locale/sv.js",
-	"./sw": "../../../../moment/locale/sw.js",
-	"./sw.js": "../../../../moment/locale/sw.js",
-	"./ta": "../../../../moment/locale/ta.js",
-	"./ta.js": "../../../../moment/locale/ta.js",
-	"./te": "../../../../moment/locale/te.js",
-	"./te.js": "../../../../moment/locale/te.js",
-	"./tet": "../../../../moment/locale/tet.js",
-	"./tet.js": "../../../../moment/locale/tet.js",
-	"./th": "../../../../moment/locale/th.js",
-	"./th.js": "../../../../moment/locale/th.js",
-	"./tl-ph": "../../../../moment/locale/tl-ph.js",
-	"./tl-ph.js": "../../../../moment/locale/tl-ph.js",
-	"./tlh": "../../../../moment/locale/tlh.js",
-	"./tlh.js": "../../../../moment/locale/tlh.js",
-	"./tr": "../../../../moment/locale/tr.js",
-	"./tr.js": "../../../../moment/locale/tr.js",
-	"./tzl": "../../../../moment/locale/tzl.js",
-	"./tzl.js": "../../../../moment/locale/tzl.js",
-	"./tzm": "../../../../moment/locale/tzm.js",
-	"./tzm-latn": "../../../../moment/locale/tzm-latn.js",
-	"./tzm-latn.js": "../../../../moment/locale/tzm-latn.js",
-	"./tzm.js": "../../../../moment/locale/tzm.js",
-	"./uk": "../../../../moment/locale/uk.js",
-	"./uk.js": "../../../../moment/locale/uk.js",
-	"./ur": "../../../../moment/locale/ur.js",
-	"./ur.js": "../../../../moment/locale/ur.js",
-	"./uz": "../../../../moment/locale/uz.js",
-	"./uz-latn": "../../../../moment/locale/uz-latn.js",
-	"./uz-latn.js": "../../../../moment/locale/uz-latn.js",
-	"./uz.js": "../../../../moment/locale/uz.js",
-	"./vi": "../../../../moment/locale/vi.js",
-	"./vi.js": "../../../../moment/locale/vi.js",
-	"./x-pseudo": "../../../../moment/locale/x-pseudo.js",
-	"./x-pseudo.js": "../../../../moment/locale/x-pseudo.js",
-	"./yo": "../../../../moment/locale/yo.js",
-	"./yo.js": "../../../../moment/locale/yo.js",
-	"./zh-cn": "../../../../moment/locale/zh-cn.js",
-	"./zh-cn.js": "../../../../moment/locale/zh-cn.js",
-	"./zh-hk": "../../../../moment/locale/zh-hk.js",
-	"./zh-hk.js": "../../../../moment/locale/zh-hk.js",
-	"./zh-tw": "../../../../moment/locale/zh-tw.js",
-	"./zh-tw.js": "../../../../moment/locale/zh-tw.js"
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "../../../../moment/locale recursive ^\\.\\/.*$";
-
-/***/ }),
-
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("../../../../../src/main.ts");
+module.exports = __webpack_require__("./src/main.ts");
 
 
 /***/ })
