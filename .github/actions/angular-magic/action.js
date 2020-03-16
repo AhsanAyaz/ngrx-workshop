@@ -5,7 +5,7 @@ const run = require("github-pages-deploy-action").default;
 const buildConfig = core.getInput("build_configuration");
 const baseHref = core.getInput("base_href");
 const githubAccessToken = core.getInput("github_access_token");
-const deployFolder = core.getInput("deploy_folder");
+const buildFolder = core.getInput("build_folder");
 const runLint = core.getInput("run_lint");
 const main = async () => {
   try {
@@ -17,7 +17,7 @@ const main = async () => {
     await run({
       accessToken: githubAccessToken,
       branch: "gh-pages",
-      folder: deployFolder,
+      folder: buildFolder,
     })
     console.log('project deployed');
   }
