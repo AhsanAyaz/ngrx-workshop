@@ -19,7 +19,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Angular magic
-      uses: ./.github/actions/angular-magic
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.1.0
       with:
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
         build_configuration: development # The branch the action should deploy from.

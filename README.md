@@ -1,4 +1,5 @@
 # NgrxWorkshopNgpk
+![CI](https://github.com/AhsanAyaz/ngrx-workshop/workflows/CI/badge.svg)
 
 ## Author
 [Muhammad Ahsan Ayaz](https://ahsanayaz.com)
