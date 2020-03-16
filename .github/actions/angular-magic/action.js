@@ -7,7 +7,7 @@ const baseHref = core.getInput("base_href");
 const githubAccessToken = core.getInput("github_access_token");
 const deployFolder = core.getInput("deploy_folder");
 const runLint = core.getInput("run_lint");
-console.log('runLint value = ', runLint);
+console.log('runLint value =', runLint);
 console.log(typeof runLint);
 console.log(runLint === 'false')
 const main = async () => {
