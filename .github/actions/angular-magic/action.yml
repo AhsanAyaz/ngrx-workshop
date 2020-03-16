@@ -26,6 +26,10 @@ inputs:
   deploy_folder:
     description: "The folder from which the code will be deployed to gh_pages."
     required: true
+  run_lint:
+    description: "If the action should run 'ng lint'"
+    required: false
+    default: false
 
 runs:
   using: 'node12'
