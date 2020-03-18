@@ -18,15 +18,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js 12.8
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.8
     - name: Angular magic
-      uses: ./actions/angular-magic
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.1.0
       with:
         github_access_token: ${{ secrets.ACCESS_TOKEN }}
         build_configuration: development # The branch the action should deploy from.
-        base_href: /ngrx-workshop-ngpk/
+        base_href: /ngrx-workshop/
         deploy_branch: gh-pages # The branch the action should deploy to.
-        deploy_folder: docs # The folder the action should deploy.
+        deploy_folder: dist # The folder the action should deploy.

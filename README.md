@@ -1,4 +1,8 @@
 # NgrxWorkshopNgpk
+![CI](https://github.com/AhsanAyaz/ngrx-workshop/workflows/CI/badge.svg)
+
+## Author
+[Muhammad Ahsan Ayaz](https://ahsanayaz.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0-rc.0.
 
